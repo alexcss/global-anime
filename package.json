@@ -1,0 +1,28 @@
+{
+	"name": "gulp-starter",
+	"version": "1.0.0",
+	"description": "BA gulp test",
+	"main": "index.js",
+	"scripts": {
+		"start": "gulp",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "AlexCSS",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.8.3",
+		"@babel/preset-env": "^7.8.3",
+		"babel-loader": "^8.0.6",
+		"browser-sync": "^2.26.7",
+		"del": "^5.1.0",
+		"gsap": "^3.2.6",
+		"gulp": "^4.0.2",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"node-sass": "^4.13.0",
+		"webpack-stream": "^5.2.1"
+	},
+	"dependencies": {
+		"@barba/core": "^2.9.7"
+	}
+}
