@@ -84,10 +84,7 @@ main{
 		&:hover{
 			color: #fff;
 			opacity: 0.5;
-			// transition-delay: 0.3s; 
-			// &:before{
-			// 	transform: translateX(0);
-			// }
+			//TODO transition
 		}
 		&:before{
 			color: #fff;
@@ -95,9 +92,8 @@ main{
 			flex-shrink: 0;
 			margin-right: 20px;
 			content: '0' counter(tochechka);
-
-			// transform: translateX(36px);
-			// transition: transform 0.3s;
+			
+			//TODO transition
 		}
 
 		
